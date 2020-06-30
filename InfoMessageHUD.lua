@@ -70,6 +70,11 @@ function InfoMessageHUD:draw()
 		
 		local posX, posY = g_currentMission.hud.vehicleSchema:getPosition()
 		local size = g_currentMission.inGameMenu.hud.inputHelp.helpTextSize
+
+		-- checking Vehile Inspector mod (by HappyLooser) size and ajusting position
+		if VehicleInspector.simple.defaultSize ~= nil and g_currentMission.vehicles ~= nil then
+			posY = posY - (VehicleInspector.simple.defaultSize * #g_currentMission.vehicles)
+		end
 		
 		if g_currentMission.controlledVehicle == nil then 
 			posY = g_currentMission.inGameMenu.hud.inputHelp.origY
