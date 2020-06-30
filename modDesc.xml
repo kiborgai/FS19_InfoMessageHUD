@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="47">
+<modDesc descVersion="48">
 
     <author>sperrgebiet</author>
-    <version>1.0.0.2</version>
+    <version>1.0.1.0</version>
 
     <title>
 		<en>Info Message HUD</en>	
@@ -31,6 +31,7 @@ Changelog:
 1.0.0.0: Initial version
 1.0.0.1: Added the rendering of additional info messages; Right now for wood harvester, to display the current cut & max cut length, as well as the action to cut a tree
 1.0.0.2: Support for Wopster's Manure System; Mod-specific actions are displayed now as well
+1.0.1.0: Support for Wopster's Manual Attach
 ]]></en>
     </description>
 

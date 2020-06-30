@@ -9,7 +9,7 @@ InfoMessageHUD = {}
 InfoMessageHUD.eventName = {}
 InfoMessageHUD.ModName = g_currentModName
 InfoMessageHUD.ModDirectory = g_currentModDirectory
-InfoMessageHUD.Version = "1.0.0.2"
+InfoMessageHUD.Version = "1.0.1.0"
 
 InfoMessageHUD.debug = fileExists(InfoMessageHUD.ModDirectory ..'debug')
 
@@ -18,7 +18,9 @@ InfoMessageHUD.Actions = {	"ACTIVATE_OBJECT",
 							"MS_DETACH_HOSE",
 							"MS_TOGGLE_FLOW",
 							"MS_ACTIVATE_PUMP",
-							"MS_TOGGLE_PUMP_DIRECTION"
+							"MS_TOGGLE_PUMP_DIRECTION",
+							"MA_ATTACH_VEHICLE",
+							"MA_ATTACH_PTO_HOSE"
 						}
 
 InfoMessageHUD.Colors = {}
